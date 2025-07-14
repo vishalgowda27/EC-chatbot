@@ -7,8 +7,23 @@ A simple, subject-wise chatbot built using **Python** and **Streamlit** to help 
 - Instant Q&A from preloaded JSON data
 - Simple Streamlit UI
 
-## 🛠️ How to Run
+## 📁 Folder Structure
+ec-chatbot/
+├── app.py ← Main Streamlit UI
+├── chatbot.py ← Chatbot logic
+├── data/
+│ └── sem_data.json ← Subject-wise Q&A
+├── requirements.txt ← Dependencies
+└── README.md ← This file
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
+🧠 Topics Covered
+> Flip-Flops, 
+> Multiplexers
+> Ohm’s Law,
+> Thevenin’s Theorem
+> 8051 Microcontroller basics,
+> Signals & Systems and more...
+
+👨‍💻 Author
+Vishal, Final Year E&C Engineering
+Govt. Engineering College, Hassan
