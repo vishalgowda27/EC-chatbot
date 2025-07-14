@@ -9,12 +9,12 @@ A simple, subject-wise chatbot built using **Python** and **Streamlit** to help 
 
 ## 📁 Folder Structure
 ec-chatbot/
-├── app.py ← Main Streamlit UI
-├── chatbot.py ← Chatbot logic
-├── data/
-│ └── sem_data.json ← Subject-wise Q&A
-├── requirements.txt ← Dependencies
-└── README.md ← This file
+- ├── app.py ← Main Streamlit UI
+- ├── chatbot.py ← Chatbot logic
+- ├── data/
+- │ └── sem_data.json ← Subject-wise Q&A
+- ├── requirements.txt ← Dependencies
+- └── README.md ← This file
 
 ## 🧠 Topics Covered
 > Flip-Flops, 
