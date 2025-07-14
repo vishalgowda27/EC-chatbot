@@ -13,14 +13,11 @@ A simple, subject-wise chatbot built using **Python** and **Streamlit** to help 
 pip install -r requirements.txt
 streamlit run app.py
 
-# 🧠 Topics Covered
-> Flip-Flops,
-> Multiplexers
-> Ohm’s Law,
-> Thevenin’s Theorem
-> 8051 Microcontroller basics
-> Signals & Systems, and more...
+🧠 Topics Covered
+Flip-Flops, Multiplexers
 
- # 👨‍💻 Author
-Vishal, Final Year E&C Engineering
-Govt. Engineering College, Hassan
+Ohm’s Law, Thevenin’s Theorem
+
+8051 Microcontroller basics
+
+Signals, Systems, and more...
