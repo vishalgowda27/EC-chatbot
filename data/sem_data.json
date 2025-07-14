@@ -1,0 +1,30 @@
+{
+  "Semester 3": {
+    "Digital Electronics": {
+      "What is a flip-flop?": "A flip-flop is a bistable multivibrator that stores one bit of binary data.",
+      "Difference between SR and JK flip-flop?": "SR has invalid states when both inputs are 1; JK resolves this with toggling action.",
+      "What is a multiplexer?": "A multiplexer selects one input from multiple data inputs and forwards it to a single output line.",
+      "What is the use of K-map?": "Karnaugh Map (K-map) is used for simplifying Boolean expressions."
+    },
+    "Network Theory": {
+      "State Ohm's law": "Ohm's law states that V = I × R, where V is voltage, I is current, and R is resistance.",
+      "What is Thevenin’s theorem?": "It allows simplification of a network to a single voltage source and resistance.",
+      "What is a mesh analysis?": "Mesh analysis is a method used to solve circuits using loop currents.",
+      "Define node voltage": "Node voltage is the electric potential difference between a node and the ground."
+    }
+  },
+  "Semester 4": {
+    "Microcontrollers": {
+      "What is 8051 microcontroller?": "8051 is an 8-bit microcontroller with inbuilt RAM, ROM, timers, counters, and serial communication.",
+      "What is the use of stack pointer in 8051?": "The stack pointer stores the address of the last stored value in the stack.",
+      "What is the default oscillator frequency of 8051?": "It is typically 12 MHz.",
+      "Difference between microcontroller and microprocessor?": "Microcontroller has memory and I/O ports on the chip, microprocessor does not."
+    },
+    "Signals and Systems": {
+      "What is a signal?": "A signal is a function that conveys information about a phenomenon.",
+      "Difference between energy and power signal?": "Energy signals have finite energy; power signals have finite power but infinite energy.",
+      "What is convolution?": "Convolution is a mathematical operation on two signals producing a third signal.",
+      "What is the Laplace transform used for?": "It is used to analyze linear time-invariant systems."
+    }
+  }
+}
