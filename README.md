@@ -13,7 +13,7 @@ A simple, subject-wise chatbot built using **Python** and **Streamlit** to help 
 pip install -r requirements.txt
 streamlit run app.py
 
-## 🧠 Topics Covered
+# 🧠 Topics Covered
 > Flip-Flops,
 > Multiplexers
 > Ohm’s Law,
@@ -21,6 +21,6 @@ streamlit run app.py
 > 8051 Microcontroller basics
 > Signals & Systems, and more...
 
-## 👨‍💻 Author
+ # 👨‍💻 Author
 Vishal, Final Year E&C Engineering
 Govt. Engineering College, Hassan
