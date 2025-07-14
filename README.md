@@ -25,5 +25,5 @@ ec-chatbot/
 > Signals & Systems and more...
 
 ##👨‍💻 Author
-Vishal, Final Year E&C Engineering
+Vishal Gowda V N, Final Year E&C Engineering
 Govt. Engineering College, Hassan
