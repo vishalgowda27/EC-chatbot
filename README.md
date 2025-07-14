@@ -16,7 +16,7 @@ ec-chatbot/
 ├── requirements.txt ← Dependencies
 └── README.md ← This file
 
-🧠 Topics Covered
+## 🧠 Topics Covered
 > Flip-Flops, 
 > Multiplexers
 > Ohm’s Law,
@@ -24,6 +24,6 @@ ec-chatbot/
 > 8051 Microcontroller basics,
 > Signals & Systems and more...
 
-👨‍💻 Author
+##👨‍💻 Author
 Vishal, Final Year E&C Engineering
 Govt. Engineering College, Hassan
