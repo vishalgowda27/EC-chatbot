@@ -26,5 +26,22 @@
       "What is convolution?": "Convolution is a mathematical operation on two signals producing a third signal.",
       "What is the Laplace transform used for?": "It is used to analyze linear time-invariant systems."
     }
+  },
+  "Semester 5": {
+  "Digital Signal Processing": {
+    "What is aliasing in DSP?": "Aliasing is the effect that causes different signals to become indistinguishable when sampled. It can be avoided by using anti-aliasing filters.",
+    "State the Nyquist theorem.": "The Nyquist theorem states that the sampling rate must be at least twice the maximum frequency present in the signal.",
+    "What is the Z-transform?": "The Z-transform converts discrete-time signals from time domain to frequency domain, similar to Laplace Transform for continuous-time signals.",
+    "What is the use of FFT in DSP?": "FFT (Fast Fourier Transform) is an efficient algorithm to compute the Discrete Fourier Transform (DFT) and is used for spectral analysis.",
+    "Define convolution.": "Convolution is a mathematical operation used to combine two signals to form a third signal, representing how the shape of one is modified by the other."
+  },
+  "Control Systems": {
+    "Define transfer function.": "A transfer function is the Laplace transform of the system's impulse response, representing the system's output-to-input ratio in the frequency domain.",
+    "What is a feedback system?": "A feedback system compares the output with the desired input and adjusts accordingly to reduce the error.",
+    "Define time constant.": "Time constant is the time required for a system's response to reach 63.2% of its final value in a first-order system.",
+    "What is steady-state error?": "Steady-state error is the difference between the desired final output and the actual output of a system as time approaches infinity.",
+    "What is root locus?": "Root locus is a graphical method used to study how the roots of a system change with variation in system gain."
   }
+}
+
 }
