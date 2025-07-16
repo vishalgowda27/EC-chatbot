@@ -58,13 +58,45 @@
       "What is 8051 microcontroller?": "8051 is an 8-bit microcontroller with inbuilt RAM, ROM, timers, counters, and serial communication.",
       "What is the use of stack pointer in 8051?": "The stack pointer stores the address of the last stored value in the stack.",
       "What is the default oscillator frequency of 8051?": "It is typically 12 MHz.",
-      "Difference between microcontroller and microprocessor?": "Microcontroller has memory and I/O ports on the chip, microprocessor does not."
+      "Difference between microcontroller and microprocessor?": "Microcontroller has memory and I/O ports on the chip, microprocessor does not.",
+      "What is a microcontroller?": "A microcontroller is an integrated circuit designed to perform specific operations in embedded systems. It includes a CPU, RAM, ROM, I/O ports, and timers on a single chip.",
+"Difference between microcontroller and microprocessor.": "Microcontrollers have built-in memory and peripherals, ideal for embedded applications. Microprocessors need external memory and are better for general-purpose computing.",
+"Explain the architecture of 8051 microcontroller.": "8051 has a Harvard architecture with separate program and data memory, 4K ROM, 128B RAM, 4 I/O ports, 2 timers, and a serial port.",
+"What are the features of 8051 microcontroller?": "It has 4K ROM, 128B RAM, four 8-bit I/O ports, two 16-bit timers, one serial port, and supports bit and byte-level operations.",
+"What is the function of accumulator in 8051?": "The accumulator (A register) is used to store intermediate results during arithmetic and logical operations.",
+"Explain the use of Program Counter (PC).": "The Program Counter holds the address of the next instruction to be executed in the program.",
+"What is the function of Stack Pointer?": "The Stack Pointer (SP) keeps track of the top of the stack in RAM and is used during subroutine calls and interrupts.",
+"Difference between MOV and MVI instructions.": "In 8051, MOV is used to transfer data between registers or memory, whereas MVI is not an 8051 instruction (it's used in 8085).",
+"What is the role of timers in microcontrollers?": "Timers are used for counting external events, generating delays, or creating time-based operations like baud rate generation.",
+"Explain the interrupt system in 8051.": "8051 supports 5 interrupts: two external, two timer, and one serial. Interrupts pause normal execution to handle urgent tasks.",
+"How is memory organized in 8051?": "8051 has 128 bytes of internal RAM, divided into general-purpose RAM, bit-addressable space, register banks, and stack area.",
+"What are SFRs in 8051?": "Special Function Registers (SFRs) are control and data registers used to configure timers, I/O ports, serial communication, etc.",
+"What are addressing modes in 8051?": "8051 supports Immediate, Register, Direct, Indirect, and Indexed addressing modes.",
+"Difference between delay loop and timer-based delay.": "A delay loop uses instruction cycles to wait, while timer-based delays use hardware timers for more accurate timing.",
+"What are embedded systems?": "Embedded systems are dedicated computing systems that perform specific tasks, typically using microcontrollers or microprocessors."
+
     },
     "Signals and Systems": {
       "What is a signal?": "A signal is a function that conveys information about a phenomenon.",
       "Difference between energy and power signal?": "Energy signals have finite energy; power signals have finite power but infinite energy.",
       "What is convolution?": "Convolution is a mathematical operation on two signals producing a third signal.",
-      "What is the Laplace transform used for?": "It is used to analyze linear time-invariant systems."
+      "What is the Laplace transform used for?": "It is used to analyze linear time-invariant systems.",
+      "What is a signal?": "A signal is a function that conveys information about the behavior or attributes of a physical system. It can be analog or digital, continuous or discrete.",
+"Define system.": "A system is a device or algorithm that processes input signals to produce output signals based on certain rules.",
+"Difference between energy and power signals.": "Energy signals have finite energy but zero average power, while power signals have finite power over time but infinite energy.",
+"Define continuous-time and discrete-time signals.": "Continuous-time signals are defined at every instant of time, whereas discrete-time signals are defined only at specific time intervals.",
+"What is linearity in systems?": "A system is linear if it satisfies both additivity and homogeneity (scaling) properties.",
+"Define time-invariant system.": "A system is time-invariant if its behavior and characteristics do not change with time.",
+"Explain causality.": "A system is causal if its output at any time depends only on present and past inputs, not on future inputs.",
+"What is the convolution of two signals?": "Convolution is a mathematical operation that expresses how the shape of one signal modifies another. It is used to find the output of LTI systems.",
+"State the properties of convolution.": "Commutative, associative, distributive, and shift invariance are key properties of convolution.",
+"Define impulse response.": "Impulse response is the output of a system when an impulse function is applied as input. It characterizes LTI systems.",
+"What is the step response of a system?": "The step response is the output of a system when the input is a unit step function.",
+"Define periodic and aperiodic signals.": "A periodic signal repeats at regular intervals, while an aperiodic signal does not repeat.",
+"What is the Fourier series?": "Fourier series represents a periodic signal as the sum of sinusoidal functions (sines and cosines) with different frequencies and amplitudes.",
+"Difference between Fourier Transform and Laplace Transform.": "Fourier Transform is used for frequency domain analysis of signals, while Laplace Transform is used for system analysis and includes initial conditions.",
+"What is the region of convergence (ROC) in Laplace transform?": "The ROC is the range of complex values for which the Laplace transform of a signal converges. It determines system stability."
+
     }
   },
   "Semester 5": {
@@ -73,15 +105,84 @@
     "State the Nyquist theorem.": "The Nyquist theorem states that the sampling rate must be at least twice the maximum frequency present in the signal.",
     "What is the Z-transform?": "The Z-transform converts discrete-time signals from time domain to frequency domain, similar to Laplace Transform for continuous-time signals.",
     "What is the use of FFT in DSP?": "FFT (Fast Fourier Transform) is an efficient algorithm to compute the Discrete Fourier Transform (DFT) and is used for spectral analysis.",
-    "Define convolution.": "Convolution is a mathematical operation used to combine two signals to form a third signal, representing how the shape of one is modified by the other."
+    "Define convolution.": "Convolution is a mathematical operation used to combine two signals to form a third signal, representing how the shape of one is modified by the other.",
+    "What is Digital Signal Processing DSP (DSP)?": "DSP involves the mathematical manipulation of signals to analyze, modify, or extract information from them, typically using digital computers or processors.",
+"Difference between analog and digital signal processing.": "Analog signal processing uses continuous signals and analog circuits, while digital signal processing uses discrete signals and numerical computations.",
+"Define discrete-time signal.": "A discrete-time signal is defined only at specific time intervals and is usually represented as a sequence of numbers.",
+"What is Z-transform?": "Z-transform converts a discrete-time signal into a complex frequency domain representation, useful for system analysis and solving difference equations.",
+"Explain DFT and its importance.": "The Discrete Fourier Transform (DFT) converts a finite sequence of time-domain data into frequency-domain components, enabling spectral analysis.",
+"What is FFT?": "FFT (Fast Fourier Transform) is an efficient algorithm to compute the DFT, significantly reducing the computational complexity from O(N²) to O(N log N).",
+"Difference between FIR and IIR filters.": "FIR filters have a finite impulse response and are always stable. IIR filters have infinite impulse responses and can be unstable.",
+"What is the convolution in DSP?": "Convolution is a mathematical operation that combines two signals to produce a third signal, representing the response of a system to an input.",
+"Define impulse response.": "Impulse response is the output of a system when a unit impulse is applied. It characterizes the system's behavior completely in the time domain.",
+"What is circular convolution?": "Circular convolution is used in DFT analysis and is different from linear convolution due to periodic extension of signals.",
+"State the sampling theorem.": "The sampling theorem states that a signal can be reconstructed perfectly from its samples if it is sampled at a rate greater than twice its highest frequency (Nyquist rate).",
+"What is aliasing?": "Aliasing occurs when a signal is undersampled, causing different signals to become indistinguishable. It leads to distortion in signal reconstruction.",
+"What are the advantages of DSP over analog processing?": "DSP offers high accuracy, programmability, low cost for complex systems, and easy storage and transmission of digital data.",
+"What is quantization?": "Quantization is the process of mapping a continuous range of values into a finite set of levels during analog-to-digital conversion.",
+"What is the role of window functions in DSP?": "Window functions reduce spectral leakage in the DFT by tapering the signal ends, commonly using Hamming, Hanning, or Blackman windows."
+
   },
   "Control Systems": {
     "Define transfer function.": "A transfer function is the Laplace transform of the system's impulse response, representing the system's output-to-input ratio in the frequency domain.",
     "What is a feedback system?": "A feedback system compares the output with the desired input and adjusts accordingly to reduce the error.",
     "Define time constant.": "Time constant is the time required for a system's response to reach 63.2% of its final value in a first-order system.",
     "What is steady-state error?": "Steady-state error is the difference between the desired final output and the actual output of a system as time approaches infinity.",
-    "What is root locus?": "Root locus is a graphical method used to study how the roots of a system change with variation in system gain."
-  }
-}
+    "What is root locus?": "Root locus is a graphical method used to study how the roots of a system change with variation in system gain.",
+    "What is a control system?": "A control system is a system that manages, commands, directs, or regulates the behavior of other devices or systems using control loops.",
+"Difference between open-loop and closed-loop control systems.": "Open-loop systems do not use feedback, while closed-loop systems use feedback to compare output with the desired input and adjust accordingly.",
+"Define transfer function.": "Transfer function is the ratio of Laplace transform of output to input under zero initial conditions. It represents system dynamics.",
+"What is feedback in control systems?": "Feedback is the process of comparing the output with the input to minimize the error and improve system performance.",
+"Define steady-state error.": "Steady-state error is the difference between the input and output as time approaches infinity. It indicates accuracy of the system.",
+"What are the types of control systems?": "Types include continuous and discrete, linear and nonlinear, time-invariant and time-variant, and open-loop and closed-loop systems.",
+"What is time response of a system?": "It is the output of a system when subjected to an input signal over time. It includes both transient and steady-state responses.",
+"Define damping ratio.": "Damping ratio is a measure of how oscillations in a system decay after a disturbance. It determines if the system is underdamped, overdamped, or critically damped.",
+"What is a pole and a zero?": "Poles are values of 's' that make the denominator of a transfer function zero. Zeros are values of 's' that make the numerator zero.",
+"Explain stability of a system.": "A system is stable if its output remains bounded for any bounded input. Stability can be analyzed using Routh-Hurwitz or root locus.",
+"What is Routh-Hurwitz criterion?": "It is a mathematical test to determine the stability of a linear time-invariant system by examining the signs of the first column of the Routh array.",
+"What is a root locus?": "Root locus is a graphical method used to study how the roots of a system change with variation in system gain.",
+"Explain Bode plot.": "A Bode plot is a graph of magnitude and phase of a system versus frequency, used for frequency domain analysis and stability.",
+"What is phase margin and gain margin?": "Phase margin is the extra phase required to bring the system to instability. Gain margin is the factor by which gain can be increased before the system becomes unstable.",
+"Difference between PID and PI controller.": "PI controller uses proportional and integral control actions; PID includes derivative action as well, improving response speed and reducing overshoot."
 
+  }
+},
+"Semester 6": {
+  "VLSI Design": {
+    "What is VLSI?": "VLSI (Very Large Scale Integration) is the process of integrating thousands to millions of transistors on a single chip to build complex circuits.",
+"Difference between ASIC and FPGA.": "ASICs are custom-designed chips for a specific application, while FPGAs are reprogrammable and used for prototyping or general-purpose logic.",
+"Explain Moore's Law.": "Moore's Law states that the number of transistors on a chip doubles approximately every 18–24 months, increasing computational power.",
+"What is CMOS technology?": "CMOS (Complementary Metal-Oxide Semiconductor) is a low-power, high-speed technology using both NMOS and PMOS transistors.",
+"What is stick diagram?": "Stick diagrams are simplified representations of layout using colored lines to visualize how different components are connected.",
+"What is layout design rule?": "Design rules are geometric constraints for layout such as minimum width, spacing, and overlap to ensure manufacturability.",
+"Explain lambda-based design rules.": "In lambda-based rules, all geometric values are expressed in terms of λ (lambda), simplifying scaling and layout portability.",
+"Difference between dynamic and static CMOS logic.": "Static CMOS uses complementary pull-up and pull-down networks, while dynamic logic uses precharge and evaluation phases.",
+"What is latch-up?": "Latch-up is a short circuit between power and ground due to parasitic thyristor action, potentially damaging the chip.",
+"What is a pass transistor?": "A pass transistor is a transistor used to control signal flow, often used in transmission gates and multiplexers.",
+"What is floorplanning in VLSI?": "Floorplanning involves placing blocks on a chip in an optimal way before placement and routing to reduce area and delay.",
+"Define setup time and hold time.": "Setup time is the minimum time before the clock edge when data must be stable. Hold time is the minimum time after the clock edge the data must remain stable.",
+"Explain clock skew.": "Clock skew is the difference in arrival time of the clock signal at different parts of the chip, which can cause timing errors.",
+"Why is power dissipation critical in VLSI?": "High power dissipation leads to heating, reliability issues, and battery drain. Minimizing dynamic and static power is crucial.",
+"What are the steps in VLSI design flow?": "The steps include specification, RTL design, logic synthesis, floorplanning, placement, routing, fabrication, and testing."
+},
+
+"Embedded System Design":{
+  "What is an embedded system?": "An embedded system is a dedicated computing system designed to perform specific tasks within a larger system, typically with real-time constraints.",
+"Difference between embedded system and general-purpose computer.": "Embedded systems are task-specific, compact, and real-time, while general-purpose computers are designed for a wide range of tasks.",
+"Examples of embedded systems.": "Examples include washing machines, ATMs, medical devices, microwave ovens, and automotive control units.",
+"What is real-time system?": "A real-time system responds to inputs or events within a strict time constraint. It can be hard real-time or soft real-time.",
+"Define microcontroller and microprocessor.": "Microcontroller is a single chip with CPU, RAM, ROM, and I/O ports; a microprocessor requires external components for memory and I/O.",
+"Difference between firmware and software.": "Firmware is a low-level program permanently stored in ROM/Flash of embedded systems. Software refers to high-level applications.",
+"What are the components of an embedded system?": "Typical components include processor, memory, input/output interfaces, timers, and software running on it.",
+"What is interrupt?": "An interrupt is a signal that temporarily halts the CPU's current execution to service an urgent task, then resumes normal execution.",
+"Difference between polling and interrupt.": "Polling continuously checks for events, wasting CPU time; interrupts allow CPU to perform other tasks and respond when needed.",
+"What is RTOS?": "Real-Time Operating System (RTOS) manages resources and tasks in real-time embedded systems, ensuring timely and predictable response.",
+"Applications of embedded systems.": "They are used in automotive, industrial automation, medical electronics, consumer electronics, and aerospace systems.",
+"What is cross compiler?": "A cross compiler is used to generate executable code for a platform different from the one on which the compiler is running.",
+"What is watchdog timer?": "A watchdog timer resets the system if the software becomes unresponsive, ensuring reliability in embedded systems.",
+"What are I/O ports in microcontrollers?": "I/O ports are interfaces through which microcontrollers communicate with external devices like sensors, switches, and displays.",
+"Role of timers in embedded systems.": "Timers are used for creating delays, event counting, generating clock pulses, and triggering periodic interrupts."
+
+}
+}
 }
