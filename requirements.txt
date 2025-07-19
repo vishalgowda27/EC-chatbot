@@ -107,4 +107,5 @@ openai
 langchain
 python-dotenv
 streamlit-chat
+streamlit_chat
 
