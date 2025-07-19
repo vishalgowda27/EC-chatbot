@@ -1,1 +1,7 @@
 streamlit
+streamlit_chat
+openai
+langchain
+python-dotenv
+fuzzywuzzy
+scikit-learn
