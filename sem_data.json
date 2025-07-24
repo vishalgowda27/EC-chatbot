@@ -21,13 +21,13 @@
       "What is fan-in and fan-out?": "Fan-in is the number of inputs a gate can handle. Fan-out is the number of inputs that a single output can drive.",
       "What is setup time and hold time?": "Setup time is the minimum time before the clock edge that the input must be stable. Hold time is the minimum time after the clock edge the input must remain stable.",
       "What is a decoder?": "A decoder is a combinational logic circuit that converts binary information from n input lines to a maximum of 2^n unique output lines.",
-"Explain half adder and full adder.": "A half adder adds two single-bit binary numbers and gives sum and carry. A full adder adds three bits (including carry-in) and gives sum and carry-out.",
-"What are universal gates?": "NAND and NOR gates are called universal gates because they can be used to construct any other basic logic gate.",
-"Explain the concept of propagation delay.": "Propagation delay is the time taken for an input signal change to result in an output signal change. It affects the speed of digital circuits.",
-"What is a shift register?": "A shift register is a sequential circuit that stores and shifts data bits one by one either left or right depending on control input.",
-"What is a parity bit?": "A parity bit is an error detection technique in which a single bit is added to data to make the number of 1s either even (even parity) or odd (odd parity).",
-"What is fan-in and fan-out?": "Fan-in is the number of inputs a gate can handle. Fan-out is the number of inputs that a single output can drive.",
-"What is setup time and hold time?": "Setup time is the minimum time before the clock edge that the input must be stable. Hold time is the minimum time after the clock edge the input must remain stable."
+      "Explain half adder and full adder.": "A half adder adds two single-bit binary numbers and gives sum and carry. A full adder adds three bits (including carry-in) and gives sum and carry-out.",
+      "What are universal gates?": "NAND and NOR gates are called universal gates because they can be used to construct any other basic logic gate.",
+      "Explain the concept of propagation delay.": "Propagation delay is the time taken for an input signal change to result in an output signal change. It affects the speed of digital circuits.",
+      "What is a shift register?": "A shift register is a sequential circuit that stores and shifts data bits one by one either left or right depending on control input.",
+      "What is a parity bit?": "A parity bit is an error detection technique in which a single bit is added to data to make the number of 1s either even (even parity) or odd (odd parity).",
+      "What is fan-in and fan-out?": "Fan-in is the number of inputs a gate can handle. Fan-out is the number of inputs that a single output can drive.",
+      "What is setup time and hold time?": "Setup time is the minimum time before the clock edge that the input must be stable. Hold time is the minimum time after the clock edge the input must remain stable."
 
     },
     "Network Theory": {
