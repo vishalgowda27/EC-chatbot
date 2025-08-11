@@ -105,3 +105,4 @@ zipp==3.21.0
 openai
 langchain
 python-dotenv
+gradio
